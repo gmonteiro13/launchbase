@@ -32,3 +32,26 @@ console.log(typeof variavel)
 ```javascript
 // Isto eh um comentario
 ```
+
+## Condicionais
+```javascript
+const media = 5
+
+if (media > 5) {
+    console.log(`A nota foi maior que 5. Parabens!`)
+} else {
+    console.log(`A nota foi manor que 5. Estude mais!`)
+}
+```
+
+## Operadores relacionais e comparativos
+Operador | Significado
+-------- | -----------
+>        | Maior que
+<        | Menor que
+>=       | Maior ou igual a
+<=       | Menor ou igual a
+==       | Igual a
+===      | Igual e do mesmo tipo
+!=       | Diferente de
+!==      | Diferente de, inclusive do tipo
