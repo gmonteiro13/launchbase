@@ -44,14 +44,30 @@ if (media > 5) {
 }
 ```
 
-## Operadores relacionais e comparativos
-Operador | Significado
--------- | -----------
->        | Maior que
-<        | Menor que
->=       | Maior ou igual a
-<=       | Menor ou igual a
-==       | Igual a
-===      | Igual e do mesmo tipo
-!=       | Diferente de
-!==      | Diferente de, inclusive do tipo
+## Operadores comparativos
+| Operador | Significado
+| -------- | -----------
+| >        | Maior que 
+| <        | Menor que 
+| >=       | Maior ou igual a
+| <=       | Menor ou igual a
+| ==       | Igual a
+| ===      | Igual e do mesmo tipo
+| !=       | Diferente de
+| !==      | Diferente de, inclusive do tipo
+
+## Operadores logicos
+| Operador | Significado
+| -------- | -----------
+| &&       | "E"
+| ||       | "OU"
+| !        | "NAO"
+
+## Operadores aritmeticos
+| Operador | Significado
+| -------- | -----------
+| *        | Multiplicacao
+| /        | Divisao
+| %        | Resto da divisao (modulo)
+| +        | Adicao
+| -        | Subtracao
