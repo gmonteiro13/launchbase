@@ -2,6 +2,9 @@
 
 Este README ira ajudar a entender o que sera abordado nesse capitulo, sem misturar codigo com anotacoes.
 
+## Links para os desafios
+[Desafio 1-1](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
+
 ## Criacao de variavel tipo string
 ```javascript
 const nome = 'Teste'
@@ -60,7 +63,7 @@ if (media > 5) {
 | Operador | Significado
 | -------- | -----------
 | &&       | "E"
-| ||       | "OU"
+| \|\|     | "OU"
 | !        | "NAO"
 
 ## Operadores aritmeticos
@@ -71,3 +74,25 @@ if (media > 5) {
 | %        | Resto da divisao (modulo)
 | +        | Adicao
 | -        | Subtracao
+
+## Objetos (Hashes)
+```javascript
+const aluno01 = {
+    nome: "Teste",
+    nota: 10
+}
+```
+
+## Vetores (Arrays)
+```javascript
+const alunos = [
+    {
+        nome: "Teste",
+        nota: 10
+    },
+    {
+        nome: "Teste2",
+        nota: 9.8
+    }
+]
+```
